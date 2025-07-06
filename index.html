@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antino Kim - Associate Professor of Information Systems</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="main-nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-item">Home</a>
+            <a href="#career" class="nav-item">Career</a>
+            <a href="#education" class="nav-item">Education</a>
+            <a href="#publications" class="nav-item">Publications</a>
+            <a href="#links" class="nav-item">Links</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="name">
+                            <span class="first-name">Antino</span>
+                            <span class="last-name">Kim</span>
+                        </h1>
+                        <div class="credentials">PhD, CISSP</div>
+                        <div class="position">
+                            <div>Associate Professor of Information Systems</div>
+                            <div>Grant Thornton Scholar</div>
+                            <div>Information Systems PhD Program Coordinator</div>
+                            <div>Indiana University Kelley School of Business</div>
+                            <div>Bloomington, Indiana</div>
+                        </div>
+                        <div class="contact">
+                            <a href="mailto:antino@iu.edu" class="email">antino@iu.edu</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="profile-photo-container">
+                            <img src="antinokim.jpg" alt="Antino Kim" class="profile-photo">
+                            <img src="antinokim_Ghibli.jpg" alt="Antino Kim" class="profile-photo profile-photo-hover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Academic Career Section -->
+        <section id="career" class="section">
+            <div class="container">
+                <h2>Academic Career</h2>
+                <div class="career-list">
+                    <div class="career-item">
+                        <span class="years">2022-Present</span>
+                        <span class="details">Associate Professor, Kelley School of Business, Indiana University, Bloomington</span>
+                    </div>
+                    <div class="career-item">
+                        <span class="years">2016-2022</span>
+                        <span class="details">Assistant Professor, Kelley School of Business, Indiana University, Bloomington</span>
+                    </div>
+                    <div class="career-item">
+                        <span class="years">2014-2016</span>
+                        <span class="details">MSIS Instructor, Foster School of Business, University of Washington, Seattle</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <h2>Education</h2>
+                <div class="education-list">
+                    <div class="education-item">
+                        <div class="degree">PhD, Information Systems</div>
+                        <div class="institution">University of Washington, Seattle, 2016</div>
+                    </div>
+                    <div class="education-item">
+                        <div class="degree">MS in Business Administration, Information Systems</div>
+                        <div class="institution">University of Washington, Seattle, 2012</div>
+                    </div>
+                    <div class="education-item">
+                        <div class="degree">MS in Engineering, Computer Science & Engineering</div>
+                        <div class="institution">University of Michigan, Ann Arbor, 2008</div>
+                    </div>
+                    <div class="education-item">
+                        <div class="degree">Bachelor of Science, Computer Science & Engineering</div>
+                        <div class="institution">University of California, Davis, 2006</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="section">
+            <div class="container">
+                <h2>Publications</h2>
+                <div class="publications-list">
+                    <div class="publication-item">
+                        <div class="publication-title" onclick="toggleAbstract('pub17')">
+                            [17] Kim, A., Sachdeva, A., and Dennis, A., "From self-service to AI-assisted service: A mixed-method study of IT support service provision using search tools and chatbots." International Journal of Information Management, Vol. 84, October, 102938 (2025).
+                            <span class="expand-icon">▼</span>
+                        </div>
+                        <div class="publication-abstract" id="pub17">
+                            <p>This study examines the evolution of IT support services from traditional self-service models to AI-assisted approaches. We conducted a mixed-method investigation comparing the effectiveness of search tools and chatbots in providing IT support. Our findings reveal significant improvements in user satisfaction and problem resolution rates when AI assistance is integrated into support workflows.</p>
+                            <a href="https://www.sciencedirect.com/science/article/pii/S0268401225000702?dgcid=author" target="_blank" class="publication-link">View Publication</a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="publication-title" onclick="toggleAbstract('pub16')">
+                            [16] Rahimi, M., Kim, A., Ayabakan, S., and Dennis, A., "Judgmental Bot: Conversational Agents in Online Mental Health Screening." MIS Quarterly, Forthcoming (2025).
+                            <span class="expand-icon">▼</span>
+                        </div>
+                        <div class="publication-abstract" id="pub16">
+                            <p>This research investigates the effectiveness of conversational agents in mental health screening applications. We examine how chatbots can be designed to provide empathetic and accurate preliminary mental health assessments. Our study reveals important design considerations for creating trustworthy AI-based mental health screening tools.</p>
+                            <a href="https://misq.umn.edu/judgmental-bot-conversational-agents-in-online-mental-health-screening.html" target="_blank" class="publication-link">View Publication</a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="publication-title" onclick="toggleAbstract('pub15')">
+                            [15] Sachdeva, A., Kim, A., and Dennis, A., "Taking the Chat out of Chatbot? Collecting User Reviews with Chatbots and Web Forms." Journal of Management Information Systems, Vol. 41, No. 1, pp. 146-177 (2024).
+                            <span class="expand-icon">▼</span>
+                        </div>
+                        <div class="publication-abstract" id="pub15">
+                            <p>This study compares the effectiveness of chatbots versus traditional web forms in collecting user reviews and feedback. We analyzed response quality, completion rates, and user satisfaction across both methods. Our findings suggest that while chatbots offer conversational advantages, traditional forms may be more efficient for certain types of data collection tasks.</p>
+                            <a href="https://www.tandfonline.com/doi/abs/10.1080/07421222.2023.2301175" target="_blank" class="publication-link">View Publication</a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="publication-title" onclick="toggleAbstract('pub14')">
+                            [14] Kim, A., Moravec, P., and Dennis, A., "When Do Details Matter? News Source Evaluation Summaries and Details against Misinformation on Social Media." International Journal of Information Management, Vol. 72, October, 102666 (2023).
+                            <span class="expand-icon">▼</span>
+                        </div>
+                        <div class="publication-abstract" id="pub14">
+                            <p>This research examines how different levels of detail in news source evaluations affect users' ability to identify misinformation on social media platforms. We investigated whether providing summary information versus detailed source evaluations better helps users distinguish between credible and unreliable news sources. Our findings reveal important implications for designing effective misinformation detection tools.</p>
+                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0268401223000476" target="_blank" class="publication-link">View Publication</a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="publication-title" onclick="toggleAbstract('pub13')">
+                            [13] Dennis, A., Moravec, P., and Kim, A., "Search & Verify: Misinformation and Source Evaluations in Internet Search Results." Decision Support Systems, Vol. 171, August, 113976 (2023).
+                            <span class="expand-icon">▼</span>
+                        </div>
+                        <div class="publication-abstract" id="pub13">
+                            <p>This study investigates how users evaluate source credibility when encountering misinformation in internet search results. We examined the effectiveness of various source evaluation techniques in helping users identify and avoid misleading information. Our research provides insights into designing better search interfaces that support critical evaluation of information sources.</p>
+                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0167923623000519" target="_blank" class="publication-link">View Publication</a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="publication-title" onclick="toggleAbstract('pub12')">
+                            [12] Kim, A., Yang, M., and Zhang, J., "When Algorithm Errs: Differential Impact of Early vs. Late Errors on Users' Reliance on Algorithms." ACM Transactions on Computer-Human Interaction, Vol. 30, No. 1, Article No. 14, pp. 1-36 (2023).
+                            <span class="expand-icon">▼</span>
+                        </div>
+                        <div class="publication-abstract" id="pub12">
+                            <p>This research explores how the timing of algorithmic errors affects user trust and reliance on automated systems. We conducted experiments comparing user responses to early versus late errors in algorithmic recommendations. Our findings reveal that early errors have a more significant impact on long-term user trust, with important implications for algorithm design and deployment strategies.</p>
+                            <a href="https://dl.acm.org/doi/10.1145/3557889" target="_blank" class="publication-link">View Publication</a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="publication-title" onclick="toggleAbstract('pub11')">
+                            [11] Moravec, P., Kim, A., Dennis, A., and Minas, R., "Do You Really Know If It's True? How Asking Users to Rate Stories Affects Belief in Fake News on Social Media." Information Systems Research, Vol. 33, No. 3, pp. 887-907 (2022).
+                            <span class="expand-icon">▼</span>
+                        </div>
+                        <div class="publication-abstract" id="pub11">
+                            <p>This study examines whether asking users to rate the credibility of news stories affects their susceptibility to fake news on social media platforms. We conducted experiments to understand how the act of rating influences user beliefs and sharing behavior. Our findings suggest that prompting users to evaluate news credibility can serve as an effective intervention against misinformation spread.</p>
+                            <a href="https://pubsonline.informs.org/doi/abs/10.1287/isre.2021.1090" target="_blank" class="publication-link">View Publication</a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="publication-title" onclick="toggleAbstract('pub10')">
+                            [10] Kim, A., Saha, R., and Khern-am-nuai, W., "Manufacturer's '1-Up' from Used Games: Insights from the Secondhand Market for Video Games." Information Systems Research, Vol. 32, No. 4, pp. 1173-1191 (2021).
+                            <span class="expand-icon">▼</span>
+                        </div>
+                        <div class="publication-abstract" id="pub10">
+                            <p>This research analyzes the strategic implications of the secondhand video game market for manufacturers and retailers. We examined how the presence of used game markets affects new game pricing, sales, and overall market dynamics. Our findings reveal how manufacturers can strategically position themselves to benefit from secondhand markets rather than being disadvantaged by them.</p>
+                            <a href="https://pubsonline.informs.org/doi/abs/10.1287/isre.2021.1023?journalCode=isre" target="_blank" class="publication-link">View Publication</a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="publication-title" onclick="toggleAbstract('pub9')">
+                            [9] Dennis, A., Moravec, P., Kim, A., and Dennis, A., "Assessment of the Effectiveness of Identity-Based Public Health Announcements in Increasing the Likelihood of Complying with COVID-19 Guidelines: Randomized Controlled Cross-sectional Web-Based Study." JMIR Public Health and Surveillance, Vol. 7, No. 4, pp. 1-8 (2021).
+                            <span class="expand-icon">▼</span>
+                        </div>
+                        <div class="publication-abstract" id="pub9">
+                            <p>This study evaluates the effectiveness of identity-based messaging in public health communications during the COVID-19 pandemic. We conducted a randomized controlled experiment to assess how different messaging approaches affect compliance with health guidelines. Our research provides evidence for the effectiveness of identity-based appeals in promoting public health behaviors during crisis situations.</p>
+                            <a href="https://publichealth.jmir.org/2021/4/e25762/" target="_blank" class="publication-link">View Publication</a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="publication-title" onclick="toggleAbstract('pub8')">
+                            [8] Dennis, A., Kim, A., Rahimi, M., and Ayabakan, S., "User reactions to COVID-19 screening chatbots from reputable providers." Journal of the American Medical Informatics Association, Vol. 27, No. 11, pp. 1727-1731 (2020).
+                            <span class="expand-icon">▼</span>
+                        </div>
+                        <div class="publication-abstract" id="pub8">
+                            <p>This research examines user attitudes and responses to COVID-19 screening chatbots deployed by reputable healthcare providers. We analyzed user feedback and engagement patterns to understand acceptance and trust in AI-powered health screening tools. Our findings highlight the importance of provider reputation in user acceptance of health-related AI applications.</p>
+                            <a href="https://academic.oup.com/jamia/article/doi/10.1093/jamia/ocaa167/5867913" target="_blank" class="publication-link">View Publication</a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="publication-title" onclick="toggleAbstract('pub7')">
+                            [7] Moravec, P., Kim, A., and Dennis, A., "Appealing to Sense and Sensibility: System 1 and System 2 Interventions for Fake News on Social Media." Information Systems Research, Vol. 31, No. 3, pp. 987-1006 (2020).
+                            <span class="expand-icon">▼</span>
+                        </div>
+                        <div class="publication-abstract" id="pub7">
+                            <p>This study explores interventions targeting different cognitive processing systems to combat fake news on social media platforms. We developed and tested interventions based on dual-process theory, examining both intuitive (System 1) and analytical (System 2) approaches to detecting misinformation. Our research demonstrates the effectiveness of cognitive-based interventions in reducing fake news sharing behavior.</p>
+                            <a href="https://pubsonline.informs.org/doi/abs/10.1287/isre.2020.0927" target="_blank" class="publication-link">View Publication</a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="publication-title" onclick="toggleAbstract('pub6')">
+                            [6] Kim, A., Lahiri, A., Dey, D., and Kane G., "'Just Enough' Piracy Can Be a Good Thing." MIT Sloan Management Review, Vol. 61, No. 1, pp. 13-14 (2019).
+                            <span class="expand-icon">▼</span>
+                        </div>
+                        <div class="publication-abstract" id="pub6">
+                            <p>This article presents a counterintuitive finding that moderate levels of piracy can actually benefit content creators and distributors. We analyzed market dynamics and consumer behavior to understand when piracy serves as a form of product sampling that ultimately increases legitimate sales. Our analysis suggests that completely eliminating piracy may not always be the optimal strategy for content industries.</p>
+                            <a href="https://sloanreview.mit.edu/article/just-enough-piracy-can-be-a-good-thing/" target="_blank" class="publication-link">View Publication</a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="publication-title" onclick="toggleAbstract('pub5')">
+                            [5] Kim, A., Moravec, P., and Dennis, A., "Combating Fake News on Social Media with Source Ratings: The Effects of User and Expert Reputation Ratings." Journal of Management Information Systems, Vol. 36, No. 3, pp. 931-968 (2019).
+                            <span class="expand-icon">▼</span>
+                        </div>
+                        <div class="publication-abstract" id="pub5">
+                            <p>This research investigates the effectiveness of source rating systems in combating fake news on social media platforms. We compared user-generated ratings with expert-provided ratings to understand their relative impact on news credibility assessment. Our findings reveal important design considerations for implementing effective source rating systems that can help users identify reliable information sources.</p>
+                            <a href="https://www.tandfonline.com/doi/abs/10.1080/07421222.2019.1628921?journalCode=mmis20" target="_blank" class="publication-link">View Publication</a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="publication-title" onclick="toggleAbstract('pub4')">
+                            [4] Kim, A. and Dennis, A., "Says Who? The Effects of Presentation Format and Source Rating on Fake News in Social Media." MIS Quarterly, Vol. 43, No. 3, pp. 1025-1039 (2019).
+                            <span class="expand-icon">▼</span>
+                        </div>
+                        <div class="publication-abstract" id="pub4">
+                            <p>This study examines how different presentation formats and source ratings affect users' ability to identify fake news on social media platforms. We conducted experiments testing various combinations of visual presentation and credibility indicators. Our research provides insights into designing effective interfaces that help users distinguish between credible and unreliable news sources.</p>
+                            <a href="https://www.misq.org/says-who-the-effects-of-presentation-format-and-source-rating-on-fake-news-in-social-media.html" target="_blank" class="publication-link">View Publication</a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="publication-title" onclick="toggleAbstract('pub3')">
+                            [3] Kim, A., "Doubly-Bound Relationship Between Publisher and Retailer: The Curious Mix of Wholesale and Agency Models." Journal of Management Information Systems, Vol. 35, No. 3, pp. 840-865 (2018).
+                            <span class="expand-icon">▼</span>
+                        </div>
+                        <div class="publication-abstract" id="pub3">
+                            <p>This research analyzes the complex relationship between publishers and retailers in digital content markets, focusing on the coexistence of wholesale and agency business models. We examined how these different models create interdependencies and strategic considerations for both parties. Our findings reveal the nuanced dynamics that lead to the adoption of hybrid business model approaches in digital marketplaces.</p>
+                            <a href="https://www.tandfonline.com/doi/abs/10.1080/07421222.2018.1481651?journalCode=mmis20" target="_blank" class="publication-link">View Publication</a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="publication-title" onclick="toggleAbstract('pub2')">
+                            [2] Kim, A., Lahiri, A., and Dey, D., "The 'Invisible Hand' of Piracy: An Economic Analysis of the Information-Goods Supply Chain." MIS Quarterly, Vol. 42, No. 4, pp. 1117-1141 (2018).
+                            <span class="expand-icon">▼</span>
+                        </div>
+                        <div class="publication-abstract" id="pub2">
+                            <p>This study provides an economic analysis of how piracy affects the information goods supply chain, drawing parallels to Adam Smith's concept of the "invisible hand." We developed theoretical models to understand the complex interactions between piracy, pricing strategies, and market outcomes. Our analysis reveals how piracy can sometimes lead to market outcomes that benefit consumers and legitimate businesses through indirect mechanisms.</p>
+                            <a href="https://misq.org/the-invisible-hand-of-piracy-an-economic-analysis-of-the-information-goods-supply-chain.html" target="_blank" class="publication-link">View Publication</a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="publication-title" onclick="toggleAbstract('pub1')">
+                            [1] Dey, D., Kim, A., and Lahiri, A., "Online Piracy and the 'Longer Arm' of Enforcement." Management Science, Vol. 65, No. 3, pp. 1173-1190 (2019).
+                            <span class="expand-icon">▼</span>
+                        </div>
+                        <div class="publication-abstract" id="pub1">
+                            <p>This research examines the effectiveness of extended enforcement mechanisms in combating online piracy. We analyzed how broader enforcement strategies, including international cooperation and technological measures, affect piracy rates and legitimate content consumption. Our findings suggest that extended enforcement approaches can be more effective than traditional localized efforts in reducing piracy while promoting legitimate content markets.</p>
+                            <a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2017.2984" target="_blank" class="publication-link">View Publication</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Links Section -->
+        <section id="links" class="section">
+            <div class="container">
+                <h2>Links</h2>
+                <div class="links-grid">
+                    <div class="link-category">
+                        <h3>Professional Profiles</h3>
+                        <ul>
+                            <li><a href="https://kelley.iu.edu/faculty-research/faculty-directory/profile.html?id=ANTINO" target="_blank">IU Faculty Profile</a></li>
+                            <li><a href="https://scholar.google.com/citations?user=q65a1S8AAAAJ&hl=en" target="_blank">Google Scholar Profile</a></li>
+                            <li><a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1644307" target="_blank">SSRN Author Profile</a></li>
+                            <li><a href="https://www.linkedin.com/in/antino-kim" target="_blank">LinkedIn Profile</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-category">
+                        <h3>Research & Documents</h3>
+                        <ul>
+                            <li><a href="https://responsibleai.iu.edu/" target="_blank">Responsible AI Research Group</a></li>
+                            <li><a href="antino_cv.pdf" target="_blank">CV (PDF)</a></li>
+                            <li><a href="IS_Major_Brochure.pdf" target="_blank">Kelley IS PhD Program Information (PDF)</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
