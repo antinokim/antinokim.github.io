@@ -73,13 +73,11 @@ body {
 }
 
 /* Hero Content */
-
 .hero-content {
     display: flex;
     align-items: flex-start;
     gap: 40px;
 }
-
 
 .hero-text {
     flex: 1;
@@ -87,10 +85,11 @@ body {
 
 .hero-image {
     flex-shrink: 0;
+    order: -1; /* Move image to the left */
 }
 
 .name {
-    font-size: 48px;
+    font-size: 70px; /* Increased size to match photo height */
     font-weight: 600;
     line-height: 1.1;
     margin-bottom: 8px;
@@ -136,6 +135,7 @@ body {
     border-radius: 8px;
     transition: all 0.3s ease;
     display: inline-block;
+    margin-left: 0; /* Align with the rest of the content */
 }
 
 .email:hover {
@@ -145,7 +145,7 @@ body {
 .profile-photo-container {
     position: relative;
     width: 200px;
-    height: 200px;
+    height: 200px; /* Height matches the name height approximately */
     cursor: pointer;
 }
 
@@ -418,16 +418,21 @@ h2 {
     }
     
     .name {
-        font-size: 36px;
+        font-size: 50px; /* Adjusted for tablet */
     }
     
     .position {
         font-size: 16px;
     }
     
+    .profile-photo-container {
+        width: 180px;
+        height: 180px;
+    }
+    
     .profile-photo {
-        width: 150px;
-        height: 150px;
+        width: 180px;
+        height: 180px;
     }
     
     h2 {
@@ -469,21 +474,46 @@ h2 {
         padding: 30px 0;
     }
     
+    /* Mobile: Photo on top, centered */
+    .hero-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .hero-image {
+        order: -1; /* Keep photo on top for mobile */
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+    
     .name {
-        font-size: 32px;
+        font-size: 40px; /* Adjusted for mobile */
     }
     
     .position {
         font-size: 15px;
     }
     
+    .profile-photo-container {
+        width: 150px;
+        height: 150px;
+    }
+    
     .profile-photo {
-        width: 120px;
-        height: 120px;
+        width: 150px;
+        height: 150px;
     }
     
     h2 {
         font-size: 24px;
+    }
+    
+    .email {
+        margin-left: 0; /* Center align for mobile */
     }
 }
 
@@ -522,35 +552,4 @@ a:focus,
 .publication-item.expanded {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 12px;
-}
-
-@media (max-width: 480px) {
-    .hero-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 20px;
-    }
-
-    .hero-image {
-        order: -1;
-    }
-
-    .name {
-        font-size: 32px;
-    }
-
-    .position {
-        font-size: 15px;
-    }
-
-    .profile-photo {
-        width: 120px;
-        height: 120px;
-    }
-
-    h2 {
-        font-size: 24px;
-    }
 }
