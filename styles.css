@@ -485,8 +485,8 @@ h2 {
         top: 50px;
         left: 0;
         right: 0;
-        background-color: #ffffff;
-        border-top: 1px solid #000000;
+        background-color: #f4f4f4;
+        border: 1px solid #000000;
         padding: 10px 0;
     }
 
