@@ -30,9 +30,13 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 100%;
+}
+
+.nav-links {
+    display: flex;
     gap: 30px;
 }
 
@@ -426,10 +430,82 @@ h2 {
 }
 
 /* Responsive Design */
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.hamburger {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #000000;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background-color: #000000;
+    transition: transform 0.3s ease;
+}
+
+.hamburger::before {
+    transform: translateY(-8px);
+}
+
+.hamburger::after {
+    transform: translateY(8px);
+}
+
+.nav-open .hamburger {
+    background-color: transparent;
+}
+
+.nav-open .hamburger::before {
+    transform: rotate(45deg);
+}
+
+.nav-open .hamburger::after {
+    transform: rotate(-45deg);
+}
+
 @media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        right: 0;
+        background-color: #ffffff;
+        border-top: 1px solid #000000;
+        padding: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-item {
+        text-align: center;
+        padding: 15px;
+        width: 100%;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
     .nav-container {
-        gap: 20px;
-        padding: 0 15px;
+        justify-content: space-between;
     }
     
     .nav-item {
@@ -500,15 +576,6 @@ h2 {
 }
 
 @media (max-width: 480px) {
-    .nav-container {
-        flex-wrap: wrap;
-        height: auto;
-        padding: 10px 15px;
-    }
-    
-    #main-nav {
-        height: auto;
-    }
     
     .hero-section {
         padding: 60px 0 30px;
