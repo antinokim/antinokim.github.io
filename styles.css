@@ -159,6 +159,8 @@ body {
     transition: all 0.3s ease;
     display: inline-block;
     margin-left: 0;
+    border: 1px solid #cccccc;
+    border-radius: 0;
 }
 
 .email:hover {
