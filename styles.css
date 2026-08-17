@@ -276,13 +276,14 @@ h2 {
 
 .filter-btn {
     font-family: inherit;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
     color: #333333;
     background-color: #ffffff;
     border: 1px solid #cccccc;
     border-radius: 0;
-    padding: 8px 18px;
+    padding: 10px 22px;
+    min-height: 44px;
     cursor: pointer;
     transition: all 0.2s ease;
 }
@@ -370,6 +371,12 @@ h2 {
     color: #1967d2;
     background-color: #e8f0fe;
     border-color: #b7cef7;
+}
+
+.pub-tag-legacy {
+    background-color: transparent;
+    border-style: dashed;
+    cursor: help;
 }
 
 .expand-icon {
@@ -664,13 +671,13 @@ h2 {
     }
 
     .publication-filters {
-        gap: 6px;
+        gap: 8px;
         margin-bottom: 16px;
     }
 
     .filter-btn {
-        font-size: 13px;
-        padding: 7px 14px;
+        flex: 1 1 auto;
+        min-width: 90px;
     }
 
     .publication-title {

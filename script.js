@@ -69,11 +69,33 @@ document.addEventListener('DOMContentLoaded', function () {
     // Observe sections for entrance animations
     const sections = document.querySelectorAll('.section');
     sections.forEach(section => {
+        const rect = section.getBoundingClientRect();
+        const alreadyInView = rect.top < window.innerHeight && rect.bottom > 0;
+
+        // Skip the fade-in for sections already on screen (e.g. short mobile
+        // viewports, or landing on a #section link) so they aren't left
+        // stuck invisible if the IntersectionObserver never fires for them.
+        if (alreadyInView) {
+            return;
+        }
+
         section.style.opacity = '0';
         section.style.transform = 'translateY(20px)';
         section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
         observer.observe(section);
     });
+
+    // Failsafe: if any section is still hidden after the animation should
+    // have finished, force it visible so a missed observer firing never
+    // leaves content (or its click targets) permanently invisible/offset.
+    setTimeout(() => {
+        sections.forEach(section => {
+            if (section.style.opacity === '0') {
+                section.style.opacity = '1';
+                section.style.transform = 'translateY(0)';
+            }
+        });
+    }, 1500);
 });
 
 // Filter publications by journal list (all / ft50 / utd24)
