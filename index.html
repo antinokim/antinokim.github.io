@@ -110,17 +110,20 @@
             <div class="container">
                 <h2>Journal Publications</h2>
                 <div class="publication-filters" role="group" aria-label="Filter publications by journal list">
-                    <button type="button" class="filter-btn active" data-filter="all" onclick="filterPublications('all', this)">All</button>
-                    <button type="button" class="filter-btn" data-filter="ft50" onclick="filterPublications('ft50', this)">FT50</button>
-                    <button type="button" class="filter-btn" data-filter="utd24" onclick="filterPublications('utd24', this)">UTD24</button>
+                    <button type="button" class="filter-btn active" data-filter="all" onclick="filterPublications('all', this)" title="Show all publications">All</button>
+                    <button type="button" class="filter-btn" data-filter="ft50" onclick="filterPublications('ft50', this)" title="Financial Times Top 50 journals, used in FT Global MBA rankings">FT50</button>
+                    <button type="button" class="filter-btn" data-filter="utd24" onclick="filterPublications('utd24', this)" title="University of Texas at Dallas Top 24 business journals">UTD24</button>
+                    <button type="button" class="filter-btn" data-filter="ais11" onclick="filterPublications('ais11', this)" title="AIS Senior Scholars' Basket of 11 premier IS journals">AIS11</button>
+                    <button type="button" class="filter-btn" data-filter="aissig" onclick="filterPublications('aissig', this)" title="Recommended by an AIS Special Interest Group (aisnet.org)">AISSIG</button>
                 </div>
                 <div class="publications-list">
-                    <div class="publication-item ft50 utd24">
+                    <div class="publication-item ft50 utd24 ais11">
                         <div class="publication-title" onclick="toggleAbstract('pub22')">
                             <span class="citation-text">[22] Kim, A., Yuan, L., Seymour, M., and Dennis, A., "From Monologue to Dialogue: Remaking Public Service Communication with Celebrity-as-a-Service." MIS Quarterly, Forthcoming (2026).</span>
                             <span class="publication-meta">
                                 <span class="pub-tag pub-tag-ft50">FT50</span>
                                 <span class="pub-tag pub-tag-utd24">UTD24</span>
+                                <span class="pub-tag pub-tag-ais11">AIS11</span>
                                 <span class="expand-icon">▼</span>
                             </span>
                         </div>
@@ -144,11 +147,12 @@
                         </div>
                     </div>
 
-                    <div class="publication-item ft50">
+                    <div class="publication-item ft50 ais11">
                         <div class="publication-title" onclick="toggleAbstract('pub20')">
                             <span class="citation-text">[20] Yuan, L., Kim, A., Seymour, M., and Dennis, A., "Celebrity-As-A-Service: Trust and Willingness to Use Digital Human Customer Service Agents." Journal of Management Information Systems, Vol. 43, No. 2, pp. 335–367 (2026).</span>
                             <span class="publication-meta">
                                 <span class="pub-tag pub-tag-ft50">FT50</span>
+                                <span class="pub-tag pub-tag-ais11">AIS11</span>
                                 <span class="expand-icon">▼</span>
                             </span>
                         </div>
@@ -158,10 +162,11 @@
                         </div>
                     </div>
 
-                    <div class="publication-item">
+                    <div class="publication-item ais11">
                         <div class="publication-title" onclick="toggleAbstract('pub19')">
                             <span class="citation-text">[19] Rosengren, W., Sachdeva, A., Kim, A., and Dennis, A., "From Text Boxes to Talking Faces: Comparing Chatbots and Digital Humans in Online Review Collection." Decision Support Systems, Vol. 203, April, 114626 (2026).</span>
                             <span class="publication-meta">
+                                <span class="pub-tag pub-tag-ais11">AIS11</span>
                                 <span class="expand-icon">▼</span>
                             </span>
                         </div>
@@ -171,11 +176,12 @@
                         </div>
                     </div>
 
-                    <div class="publication-item ft50">
+                    <div class="publication-item ft50 ais11">
                         <div class="publication-title" onclick="toggleAbstract('pub18')">
                             <span class="citation-text">[18] Kim, A. and Liu, C., "When Good Intentions Backfire: The Asymmetric Effects of Minority-Ownership Markers for Businesses on Online Platforms." Journal of Management Information Systems, Vol. 42, No. 4, pp. 1243-1278 (2025).</span>
                             <span class="publication-meta">
                                 <span class="pub-tag pub-tag-ft50">FT50</span>
+                                <span class="pub-tag pub-tag-ais11">AIS11</span>
                                 <span class="expand-icon">▼</span>
                             </span>
                         </div>
@@ -185,10 +191,11 @@
                         </div>
                     </div>
                     
-                    <div class="publication-item">
+                    <div class="publication-item aissig">
                         <div class="publication-title" onclick="toggleAbstract('pub17')">
                             <span class="citation-text">[17] Kim, A., Sachdeva, A., and Dennis, A., "From self-service to AI-assisted service: A mixed-method study of IT support service provision using search tools and chatbots." International Journal of Information Management, Vol. 84, October, 102938 (2025).</span>
                             <span class="publication-meta">
+                                <span class="pub-tag pub-tag-aissig">AISSIG</span>
                                 <span class="expand-icon">▼</span>
                             </span>
                         </div>
@@ -198,12 +205,13 @@
                         </div>
                     </div>
 
-                    <div class="publication-item ft50 utd24">
+                    <div class="publication-item ft50 utd24 ais11">
                         <div class="publication-title" onclick="toggleAbstract('pub16')">
                             <span class="citation-text">[16] Raimi, R., Kim, A., Ayabakan, S., and Dennis, A., "Judgmental Bot: Conversational Agents in Online Mental Health Screening." MIS Quarterly, Vol. 49, No. 4, pp. 1319–1356 (2025).</span>
                             <span class="publication-meta">
                                 <span class="pub-tag pub-tag-ft50">FT50</span>
                                 <span class="pub-tag pub-tag-utd24">UTD24</span>
+                                <span class="pub-tag pub-tag-ais11">AIS11</span>
                                 <span class="expand-icon">▼</span>
                             </span>
                         </div>
@@ -213,11 +221,12 @@
                         </div>
                     </div>
 
-                    <div class="publication-item ft50">
+                    <div class="publication-item ft50 ais11">
                         <div class="publication-title" onclick="toggleAbstract('pub15')">
                             <span class="citation-text">[15] Sachdeva, A., Kim, A., and Dennis, A., "Taking the Chat out of Chatbot? Collecting User Reviews with Chatbots and Web Forms." Journal of Management Information Systems, Vol. 41, No. 1, pp. 146-177 (2024).</span>
                             <span class="publication-meta">
                                 <span class="pub-tag pub-tag-ft50">FT50</span>
+                                <span class="pub-tag pub-tag-ais11">AIS11</span>
                                 <span class="expand-icon">▼</span>
                             </span>
                         </div>
@@ -227,10 +236,11 @@
                         </div>
                     </div>
 
-                    <div class="publication-item">
+                    <div class="publication-item aissig">
                         <div class="publication-title" onclick="toggleAbstract('pub14')">
                             <span class="citation-text">[14] Kim, A., Moravec, P., and Dennis, A., "When Do Details Matter? News Source Evaluation Summaries and Details against Misinformation on Social Media." International Journal of Information Management, Vol. 72, October, 102666 (2023).</span>
                             <span class="publication-meta">
+                                <span class="pub-tag pub-tag-aissig">AISSIG</span>
                                 <span class="expand-icon">▼</span>
                             </span>
                         </div>
@@ -240,10 +250,11 @@
                         </div>
                     </div>
 
-                    <div class="publication-item">
+                    <div class="publication-item ais11">
                         <div class="publication-title" onclick="toggleAbstract('pub13')">
                             <span class="citation-text">[13] Dennis, A., Moravec, P., and Kim, A., "Search & Verify: Misinformation and Source Evaluations in Internet Search Results." Decision Support Systems, Vol. 171, August, 113976 (2023).</span>
                             <span class="publication-meta">
+                                <span class="pub-tag pub-tag-ais11">AIS11</span>
                                 <span class="expand-icon">▼</span>
                             </span>
                         </div>
@@ -253,10 +264,11 @@
                         </div>
                     </div>
 
-                    <div class="publication-item">
+                    <div class="publication-item aissig">
                         <div class="publication-title" onclick="toggleAbstract('pub12')">
                             <span class="citation-text">[12] Kim, A., Yang, M., and Zhang, J., "When Algorithm Errs: Differential Impact of Early vs. Late Errors on Users' Reliance on Algorithms." ACM Transactions on Computer-Human Interaction, Vol. 30, No. 1, Article No. 14, pp. 1-36 (2023).</span>
                             <span class="publication-meta">
+                                <span class="pub-tag pub-tag-aissig">AISSIG</span>
                                 <span class="expand-icon">▼</span>
                             </span>
                         </div>
@@ -266,12 +278,13 @@
                         </div>
                     </div>
 
-                    <div class="publication-item ft50 utd24">
+                    <div class="publication-item ft50 utd24 ais11">
                         <div class="publication-title" onclick="toggleAbstract('pub11')">
                             <span class="citation-text">[11] Moravec, P., Kim, A., Dennis, A., and Minas, R., "Do You Really Know If It's True? How Asking Users to Rate Stories Affects Belief in Fake News on Social Media." Information Systems Research, Vol. 33, No. 3, pp. 887-907 (2022).</span>
                             <span class="publication-meta">
                                 <span class="pub-tag pub-tag-ft50">FT50</span>
                                 <span class="pub-tag pub-tag-utd24">UTD24</span>
+                                <span class="pub-tag pub-tag-ais11">AIS11</span>
                                 <span class="expand-icon">▼</span>
                             </span>
                         </div>
@@ -281,12 +294,13 @@
                         </div>
                     </div>
 
-                    <div class="publication-item ft50 utd24">
+                    <div class="publication-item ft50 utd24 ais11">
                         <div class="publication-title" onclick="toggleAbstract('pub10')">
                             <span class="citation-text">[10] Kim, A., Saha, R., and Khern-am-nuai, W., "Manufacturer's '1-Up' from Used Games: Insights from the Secondhand Market for Video Games." Information Systems Research, Vol. 32, No. 4, pp. 1173-1191 (2021).</span>
                             <span class="publication-meta">
                                 <span class="pub-tag pub-tag-ft50">FT50</span>
                                 <span class="pub-tag pub-tag-utd24">UTD24</span>
+                                <span class="pub-tag pub-tag-ais11">AIS11</span>
                                 <span class="expand-icon">▼</span>
                             </span>
                         </div>
@@ -309,10 +323,11 @@
                         </div>
                     </div>
 
-                    <div class="publication-item">
+                    <div class="publication-item aissig">
                         <div class="publication-title" onclick="toggleAbstract('pub8')">
                             <span class="citation-text">[8] Dennis, A., Kim, A., Raimi, R., and Ayabakan, S., "User reactions to COVID-19 screening chatbots from reputable providers." Journal of the American Medical Informatics Association, Vol. 27, No. 11, pp. 1727-1731 (2020).</span>
                             <span class="publication-meta">
+                                <span class="pub-tag pub-tag-aissig">AISSIG</span>
                                 <span class="expand-icon">▼</span>
                             </span>
                         </div>
@@ -322,12 +337,13 @@
                         </div>
                     </div>
 
-                    <div class="publication-item ft50 utd24">
+                    <div class="publication-item ft50 utd24 ais11">
                         <div class="publication-title" onclick="toggleAbstract('pub7')">
                             <span class="citation-text">[7] Moravec, P., Kim, A., and Dennis, A., "Appealing to Sense and Sensibility: System 1 and System 2 Interventions for Fake News on Social Media." Information Systems Research, Vol. 31, No. 3, pp. 987-1006 (2020).</span>
                             <span class="publication-meta">
                                 <span class="pub-tag pub-tag-ft50">FT50</span>
                                 <span class="pub-tag pub-tag-utd24">UTD24</span>
+                                <span class="pub-tag pub-tag-ais11">AIS11</span>
                                 <span class="expand-icon">▼</span>
                             </span>
                         </div>
@@ -351,11 +367,12 @@
                         </div>
                     </div>
 
-                    <div class="publication-item ft50">
+                    <div class="publication-item ft50 ais11">
                         <div class="publication-title" onclick="toggleAbstract('pub5')">
                             <span class="citation-text">[5] Kim, A., Moravec, P., and Dennis, A., "Combating Fake News on Social Media with Source Ratings: The Effects of User and Expert Reputation Ratings." Journal of Management Information Systems, Vol. 36, No. 3, pp. 931-968 (2019).</span>
                             <span class="publication-meta">
                                 <span class="pub-tag pub-tag-ft50">FT50</span>
+                                <span class="pub-tag pub-tag-ais11">AIS11</span>
                                 <span class="expand-icon">▼</span>
                             </span>
                         </div>
@@ -365,12 +382,13 @@
                         </div>
                     </div>
 
-                    <div class="publication-item ft50 utd24">
+                    <div class="publication-item ft50 utd24 ais11">
                         <div class="publication-title" onclick="toggleAbstract('pub4')">
                             <span class="citation-text">[4] Kim, A. and Dennis, A., "Says Who? The Effects of Presentation Format and Source Rating on Fake News in Social Media." MIS Quarterly, Vol. 43, No. 3, pp. 1025-1039 (2019).</span>
                             <span class="publication-meta">
                                 <span class="pub-tag pub-tag-ft50">FT50</span>
                                 <span class="pub-tag pub-tag-utd24">UTD24</span>
+                                <span class="pub-tag pub-tag-ais11">AIS11</span>
                                 <span class="expand-icon">▼</span>
                             </span>
                         </div>
@@ -380,11 +398,12 @@
                         </div>
                     </div>
 
-                    <div class="publication-item ft50">
+                    <div class="publication-item ft50 ais11">
                         <div class="publication-title" onclick="toggleAbstract('pub3')">
                             <span class="citation-text">[3] Kim, A., "Doubly-Bound Relationship Between Publisher and Retailer: The Curious Mix of Wholesale and Agency Models." Journal of Management Information Systems, Vol. 35, No. 3, pp. 840-865 (2018).</span>
                             <span class="publication-meta">
                                 <span class="pub-tag pub-tag-ft50">FT50</span>
+                                <span class="pub-tag pub-tag-ais11">AIS11</span>
                                 <span class="expand-icon">▼</span>
                             </span>
                         </div>
@@ -394,12 +413,13 @@
                         </div>
                     </div>
 
-                    <div class="publication-item ft50 utd24">
+                    <div class="publication-item ft50 utd24 ais11">
                         <div class="publication-title" onclick="toggleAbstract('pub2')">
                             <span class="citation-text">[2] Kim, A., Lahiri, A., and Dey, D., "The 'Invisible Hand' of Piracy: An Economic Analysis of the Information-Goods Supply Chain." MIS Quarterly, Vol. 42, No. 4, pp. 1117-1141 (2018).</span>
                             <span class="publication-meta">
                                 <span class="pub-tag pub-tag-ft50">FT50</span>
                                 <span class="pub-tag pub-tag-utd24">UTD24</span>
+                                <span class="pub-tag pub-tag-ais11">AIS11</span>
                                 <span class="expand-icon">▼</span>
                             </span>
                         </div>

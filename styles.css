@@ -373,6 +373,18 @@ h2 {
     border-color: #b7cef7;
 }
 
+.pub-tag-ais11 {
+    color: #7c3aed;
+    background-color: #f3e8fd;
+    border-color: #d9c2f5;
+}
+
+.pub-tag-aissig {
+    color: #b45309;
+    background-color: #fef3e0;
+    border-color: #f5d19a;
+}
+
 .pub-tag-legacy {
     background-color: transparent;
     border-style: dashed;
