@@ -109,21 +109,34 @@
         <section id="publications" class="section">
             <div class="container">
                 <h2>Journal Publications</h2>
+                <div class="publication-filters" role="group" aria-label="Filter publications by journal list">
+                    <button type="button" class="filter-btn active" data-filter="all" onclick="filterPublications('all', this)">All</button>
+                    <button type="button" class="filter-btn" data-filter="ft50" onclick="filterPublications('ft50', this)">FT50</button>
+                    <button type="button" class="filter-btn" data-filter="utd24" onclick="filterPublications('utd24', this)">UTD24</button>
+                </div>
                 <div class="publications-list">
-                    <div class="publication-item">
+                    <div class="publication-item ft50 utd24">
                         <div class="publication-title" onclick="toggleAbstract('pub22')">
-                            [22] Kim, A., Yuan, L., Seymour, M., and Dennis, A., "From Monologue to Dialogue: Remaking Public Service Communication with Celebrity-as-a-Service." MIS Quarterly, Forthcoming (2026).
-                            <span class="expand-icon">▼</span>
+                            <span class="citation-text">[22] Kim, A., Yuan, L., Seymour, M., and Dennis, A., "From Monologue to Dialogue: Remaking Public Service Communication with Celebrity-as-a-Service." MIS Quarterly, Forthcoming (2026).</span>
+                            <span class="publication-meta">
+                                <span class="pub-tag pub-tag-ft50">FT50</span>
+                                <span class="pub-tag pub-tag-utd24">UTD24</span>
+                                <span class="expand-icon">▼</span>
+                            </span>
                         </div>
                         <div class="publication-abstract" id="pub22">
                             <p class="abstract-summary"><strong>AI generated summary:</strong> AI-driven "digital human" celebrities can now deliver public service messages interactively, not just as one-way broadcasts. An online experiment on skin cancer awareness found that both perceived celebrity status and interactivity increased trust and enjoyment, which in turn drove compliance intentions and message sharing. The results suggest AI celebrities can make public service communication more scalable and effective through one-on-one interaction.</p>
                         </div>
                     </div>
 
-                    <div class="publication-item">
+                    <div class="publication-item ft50 utd24">
                         <div class="publication-title" onclick="toggleAbstract('pub21')">
-                            [21] Smith, E., Shulman, J., and Kim, A., "My Fair AI: The Effects of a Predictive Parity Policy for AI Content Recommendation." Marketing Science, Forthcoming (2026).
-                            <span class="expand-icon">▼</span>
+                            <span class="citation-text">[21] Smith, E., Shulman, J., and Kim, A., "My Fair AI: The Effects of a Predictive Parity Policy for AI Content Recommendation." Marketing Science, Forthcoming (2026).</span>
+                            <span class="publication-meta">
+                                <span class="pub-tag pub-tag-ft50">FT50</span>
+                                <span class="pub-tag pub-tag-utd24">UTD24</span>
+                                <span class="expand-icon">▼</span>
+                            </span>
                         </div>
                         <div class="publication-abstract" id="pub21">
                             <p class="abstract-summary"><strong>AI generated summary:</strong> AI recommendation systems can systematically disadvantage niche consumer groups, prompting some firms to commit to accuracy parity policies that rely on voluntary identity disclosure. Using a game-theoretic model, this research shows that such commitments can unexpectedly increase firms' AI investment and benefit the dominant demographic group, while sometimes harming the very groups they intend to protect. The findings highlight important tradeoffs in using parity policies to govern AI-driven content recommendation.</p>
@@ -131,10 +144,13 @@
                         </div>
                     </div>
 
-                    <div class="publication-item">
+                    <div class="publication-item ft50">
                         <div class="publication-title" onclick="toggleAbstract('pub20')">
-                            [20] Yuan, L., Kim, A., Seymour, M., and Dennis, A., "Celebrity-As-A-Service: Trust and Willingness to Use Digital Human Customer Service Agents." Journal of Management Information Systems, Vol. 43, No. 2, pp. 335–367 (2026).
-                            <span class="expand-icon">▼</span>
+                            <span class="citation-text">[20] Yuan, L., Kim, A., Seymour, M., and Dennis, A., "Celebrity-As-A-Service: Trust and Willingness to Use Digital Human Customer Service Agents." Journal of Management Information Systems, Vol. 43, No. 2, pp. 335–367 (2026).</span>
+                            <span class="publication-meta">
+                                <span class="pub-tag pub-tag-ft50">FT50</span>
+                                <span class="expand-icon">▼</span>
+                            </span>
                         </div>
                         <div class="publication-abstract" id="pub20">
                             <p class="abstract-summary"><strong>AI generated summary:</strong> Digital "twins" that mimic real celebrities can serve as AI- or human-controlled customer service agents. Two experiments found that a celebrity-resembling digital twin was seen as more capable, benevolent, and trustworthy than a generic one, driving greater engagement and even softening negative reactions to service errors. The results suggest celebrity digital twins deliver business value similar to traditional celebrity endorsements, despite no actual difference in underlying performance.</p>
@@ -144,8 +160,10 @@
 
                     <div class="publication-item">
                         <div class="publication-title" onclick="toggleAbstract('pub19')">
-                            [19] Rosengren, W., Sachdeva, A., Kim, A., and Dennis, A., "From Text Boxes to Talking Faces: Comparing Chatbots and Digital Humans in Online Review Collection." Decision Support Systems, Vol. 203, April, 114626 (2026).
-                            <span class="expand-icon">▼</span>
+                            <span class="citation-text">[19] Rosengren, W., Sachdeva, A., Kim, A., and Dennis, A., "From Text Boxes to Talking Faces: Comparing Chatbots and Digital Humans in Online Review Collection." Decision Support Systems, Vol. 203, April, 114626 (2026).</span>
+                            <span class="publication-meta">
+                                <span class="expand-icon">▼</span>
+                            </span>
                         </div>
                         <div class="publication-abstract" id="pub19">
                             <p class="abstract-summary"><strong>AI generated summary:</strong> Replacing text-based chatbots with AI-powered "digital humans" that speak with realistic faces and voices makes review collection feel like a casual conversation rather than a form to fill out. An online restaurant-review experiment found this increased perceived humanness, which drove higher effectiveness, efficiency, satisfaction, and usage intention. The results suggest digital humans can meaningfully boost the volume of online reviews firms collect.</p>
@@ -153,10 +171,13 @@
                         </div>
                     </div>
 
-                    <div class="publication-item">
+                    <div class="publication-item ft50">
                         <div class="publication-title" onclick="toggleAbstract('pub18')">
-                            [18] Kim, A. and Liu, C., "When Good Intentions Backfire: The Asymmetric Effects of Minority-Ownership Markers for Businesses on Online Platforms." Journal of Management Information Systems, Vol. 42, No. 4, pp. 1243-1278 (2025).
-                            <span class="expand-icon">▼</span>
+                            <span class="citation-text">[18] Kim, A. and Liu, C., "When Good Intentions Backfire: The Asymmetric Effects of Minority-Ownership Markers for Businesses on Online Platforms." Journal of Management Information Systems, Vol. 42, No. 4, pp. 1243-1278 (2025).</span>
+                            <span class="publication-meta">
+                                <span class="pub-tag pub-tag-ft50">FT50</span>
+                                <span class="expand-icon">▼</span>
+                            </span>
                         </div>
                         <div class="publication-abstract" id="pub18">
                             <p class="abstract-summary"><strong>AI generated summary:</strong> Minority-owned business markers can increase preference for such businesses, but mainly among motivated consumers. For others, effects are mixed and may even backfire, especially when businesses defy stereotypes. Results from Yelp data and online experiments highlight the nuanced, context-dependent impact of these identity markers.</p>
@@ -166,8 +187,10 @@
                     
                     <div class="publication-item">
                         <div class="publication-title" onclick="toggleAbstract('pub17')">
-                            [17] Kim, A., Sachdeva, A., and Dennis, A., "From self-service to AI-assisted service: A mixed-method study of IT support service provision using search tools and chatbots." International Journal of Information Management, Vol. 84, October, 102938 (2025).
-                            <span class="expand-icon">▼</span>
+                            <span class="citation-text">[17] Kim, A., Sachdeva, A., and Dennis, A., "From self-service to AI-assisted service: A mixed-method study of IT support service provision using search tools and chatbots." International Journal of Information Management, Vol. 84, October, 102938 (2025).</span>
+                            <span class="publication-meta">
+                                <span class="expand-icon">▼</span>
+                            </span>
                         </div>
                         <div class="publication-abstract" id="pub17">
                             <p class="abstract-summary"><strong>AI generated summary:</strong> Chatbots outperform traditional search tools in self-service IT support, yielding higher user satisfaction across three experiments. This is driven by perceived assistance and co-creation of queries. Chatbots enable faster answers or more effective support, suggesting they meaningfully enhance AI-assisted self-service experiences.</p>
@@ -175,10 +198,14 @@
                         </div>
                     </div>
 
-                    <div class="publication-item">
+                    <div class="publication-item ft50 utd24">
                         <div class="publication-title" onclick="toggleAbstract('pub16')">
-                            [16] Raimi, R., Kim, A., Ayabakan, S., and Dennis, A., "Judgmental Bot: Conversational Agents in Online Mental Health Screening." MIS Quarterly, Vol. 49, No. 4, pp. 1319–1356 (2025).
-                            <span class="expand-icon">▼</span>
+                            <span class="citation-text">[16] Raimi, R., Kim, A., Ayabakan, S., and Dennis, A., "Judgmental Bot: Conversational Agents in Online Mental Health Screening." MIS Quarterly, Vol. 49, No. 4, pp. 1319–1356 (2025).</span>
+                            <span class="publication-meta">
+                                <span class="pub-tag pub-tag-ft50">FT50</span>
+                                <span class="pub-tag pub-tag-utd24">UTD24</span>
+                                <span class="expand-icon">▼</span>
+                            </span>
                         </div>
                         <div class="publication-abstract" id="pub16">
                             <p class="abstract-summary"><strong>AI generated summary:</strong> Despite expectations, chatbots were consistently perceived as more judgmental than humans in mental health screening, reducing user engagement. This judgment was linked to a lack of emotional understanding and validation, challenging the assumption that chatbots lower stigma-related barriers to care.</p>
@@ -186,10 +213,13 @@
                         </div>
                     </div>
 
-                    <div class="publication-item">
+                    <div class="publication-item ft50">
                         <div class="publication-title" onclick="toggleAbstract('pub15')">
-                            [15] Sachdeva, A., Kim, A., and Dennis, A., "Taking the Chat out of Chatbot? Collecting User Reviews with Chatbots and Web Forms." Journal of Management Information Systems, Vol. 41, No. 1, pp. 146-177 (2024).
-                            <span class="expand-icon">▼</span>
+                            <span class="citation-text">[15] Sachdeva, A., Kim, A., and Dennis, A., "Taking the Chat out of Chatbot? Collecting User Reviews with Chatbots and Web Forms." Journal of Management Information Systems, Vol. 41, No. 1, pp. 146-177 (2024).</span>
+                            <span class="publication-meta">
+                                <span class="pub-tag pub-tag-ft50">FT50</span>
+                                <span class="expand-icon">▼</span>
+                            </span>
                         </div>
                         <div class="publication-abstract" id="pub15">
                             <p class="abstract-summary"><strong>AI generated summary:</strong> Two experiments compared chatbots to traditional web forms for collecting user reviews. Chatbots felt more efficient to use but did not improve overall satisfaction or intent to use them again, and reviews collected via chatbot tended to be shorter and lower quality than those from forms. Adding more structure to the chatbot conversation didn't boost satisfaction, but it did produce longer reviews and reduced the drop in quality — showing that naive chatbot deployment can actually reduce the value of the reviews collected.</p>
@@ -199,8 +229,10 @@
 
                     <div class="publication-item">
                         <div class="publication-title" onclick="toggleAbstract('pub14')">
-                            [14] Kim, A., Moravec, P., and Dennis, A., "When Do Details Matter? News Source Evaluation Summaries and Details against Misinformation on Social Media." International Journal of Information Management, Vol. 72, October, 102666 (2023).
-                            <span class="expand-icon">▼</span>
+                            <span class="citation-text">[14] Kim, A., Moravec, P., and Dennis, A., "When Do Details Matter? News Source Evaluation Summaries and Details against Misinformation on Social Media." International Journal of Information Management, Vol. 72, October, 102666 (2023).</span>
+                            <span class="publication-meta">
+                                <span class="expand-icon">▼</span>
+                            </span>
                         </div>
                         <div class="publication-abstract" id="pub14">
                             <p class="abstract-summary"><strong>AI generated summary:</strong> This study examined how source-evaluation icons and their supporting details affect belief in social media articles. A negative icon alone was enough to reduce belief, with no added effect from viewing the details, but a positive icon only increased belief when users also viewed the supporting details behind it. Users were also more likely to seek out those details for articles that matched their existing beliefs than for ones that challenged them, showing that confirmation bias shapes even how people go about verifying information.</p>
@@ -210,8 +242,10 @@
 
                     <div class="publication-item">
                         <div class="publication-title" onclick="toggleAbstract('pub13')">
-                            [13] Dennis, A., Moravec, P., and Kim, A., "Search & Verify: Misinformation and Source Evaluations in Internet Search Results." Decision Support Systems, Vol. 171, August, 113976 (2023).
-                            <span class="expand-icon">▼</span>
+                            <span class="citation-text">[13] Dennis, A., Moravec, P., and Kim, A., "Search & Verify: Misinformation and Source Evaluations in Internet Search Results." Decision Support Systems, Vol. 171, August, 113976 (2023).</span>
+                            <span class="publication-meta">
+                                <span class="expand-icon">▼</span>
+                            </span>
                         </div>
                         <div class="publication-abstract" id="pub13">
                             <p class="abstract-summary"><strong>AI generated summary:</strong> This study tested how credibility icons and supporting details attached to search results affect belief in news articles. A negative rating icon alone was enough to reduce belief, but a positive icon alone had no effect — positive ratings only increased belief when users clicked through to see supporting details. Additional context from a source like Wikipedia also swayed belief in the expected direction, showing that how information is presented matters as much as the rating itself.</p>
@@ -221,8 +255,10 @@
 
                     <div class="publication-item">
                         <div class="publication-title" onclick="toggleAbstract('pub12')">
-                            [12] Kim, A., Yang, M., and Zhang, J., "When Algorithm Errs: Differential Impact of Early vs. Late Errors on Users' Reliance on Algorithms." ACM Transactions on Computer-Human Interaction, Vol. 30, No. 1, Article No. 14, pp. 1-36 (2023).
-                            <span class="expand-icon">▼</span>
+                            <span class="citation-text">[12] Kim, A., Yang, M., and Zhang, J., "When Algorithm Errs: Differential Impact of Early vs. Late Errors on Users' Reliance on Algorithms." ACM Transactions on Computer-Human Interaction, Vol. 30, No. 1, Article No. 14, pp. 1-36 (2023).</span>
+                            <span class="publication-meta">
+                                <span class="expand-icon">▼</span>
+                            </span>
                         </div>
                         <div class="publication-abstract" id="pub12">
                             <p class="abstract-summary"><strong>AI generated summary:</strong> Two experiments examined how the timing of an algorithm's mistake affects users' willingness to keep relying on it. An early error caused a substantial, lasting drop in reliance, while a later error hurt reliance only temporarily and to a lesser degree. However, when users had more control over how they used the algorithm's predictions rather than following them automatically, the timing of the error stopped mattering as much.</p>
@@ -230,10 +266,14 @@
                         </div>
                     </div>
 
-                    <div class="publication-item">
+                    <div class="publication-item ft50 utd24">
                         <div class="publication-title" onclick="toggleAbstract('pub11')">
-                            [11] Moravec, P., Kim, A., Dennis, A., and Minas, R., "Do You Really Know If It's True? How Asking Users to Rate Stories Affects Belief in Fake News on Social Media." Information Systems Research, Vol. 33, No. 3, pp. 887-907 (2022).
-                            <span class="expand-icon">▼</span>
+                            <span class="citation-text">[11] Moravec, P., Kim, A., Dennis, A., and Minas, R., "Do You Really Know If It's True? How Asking Users to Rate Stories Affects Belief in Fake News on Social Media." Information Systems Research, Vol. 33, No. 3, pp. 887-907 (2022).</span>
+                            <span class="publication-meta">
+                                <span class="pub-tag pub-tag-ft50">FT50</span>
+                                <span class="pub-tag pub-tag-utd24">UTD24</span>
+                                <span class="expand-icon">▼</span>
+                            </span>
                         </div>
                         <div class="publication-abstract" id="pub11">
                             <p class="abstract-summary"><strong>AI generated summary:</strong> This study tested whether simply asking social media users to rate a news story's credibility — even though most users have no firsthand way to verify it — changes how much they believe it. The act of producing a rating, not the accuracy of the rating itself, prompted more careful, critical thinking and reduced belief in the story. This suggests that asking users to rate news can be a useful nudge against misinformation on its own, independent of whether the crowd's ratings are actually correct.</p>
@@ -241,10 +281,14 @@
                         </div>
                     </div>
 
-                    <div class="publication-item">
+                    <div class="publication-item ft50 utd24">
                         <div class="publication-title" onclick="toggleAbstract('pub10')">
-                            [10] Kim, A., Saha, R., and Khern-am-nuai, W., "Manufacturer's '1-Up' from Used Games: Insights from the Secondhand Market for Video Games." Information Systems Research, Vol. 32, No. 4, pp. 1173-1191 (2021).
-                            <span class="expand-icon">▼</span>
+                            <span class="citation-text">[10] Kim, A., Saha, R., and Khern-am-nuai, W., "Manufacturer's '1-Up' from Used Games: Insights from the Secondhand Market for Video Games." Information Systems Research, Vol. 32, No. 4, pp. 1173-1191 (2021).</span>
+                            <span class="publication-meta">
+                                <span class="pub-tag pub-tag-ft50">FT50</span>
+                                <span class="pub-tag pub-tag-utd24">UTD24</span>
+                                <span class="expand-icon">▼</span>
+                            </span>
                         </div>
                         <div class="publication-abstract" id="pub10">
                             <p class="abstract-summary"><strong>AI generated summary:</strong> Console makers like Sony and Microsoft have the technical ability to shut down the resale market for used games, yet they tacitly allow it to thrive. A game-theoretic model shows why: when a console offers value beyond just playing games, a healthy secondhand game market can actually increase the manufacturer's profit, consumer surplus, and overall social welfare at the same time. The findings help explain a market pattern that looks like it should hurt manufacturers but often doesn't.</p>
@@ -254,8 +298,10 @@
 
                     <div class="publication-item">
                         <div class="publication-title" onclick="toggleAbstract('pub9')">
-                            [9] Dennis, A., Moravec, P., Kim, A., and Dennis, A., "Assessment of the Effectiveness of Identity-Based Public Health Announcements in Increasing the Likelihood of Complying with COVID-19 Guidelines: Randomized Controlled Cross-sectional Web-Based Study." JMIR Public Health and Surveillance, Vol. 7, No. 4, pp. 1-8 (2021).
-                            <span class="expand-icon">▼</span>
+                            <span class="citation-text">[9] Dennis, A., Moravec, P., Kim, A., and Dennis, A., "Assessment of the Effectiveness of Identity-Based Public Health Announcements in Increasing the Likelihood of Complying with COVID-19 Guidelines: Randomized Controlled Cross-sectional Web-Based Study." JMIR Public Health and Surveillance, Vol. 7, No. 4, pp. 1-8 (2021).</span>
+                            <span class="publication-meta">
+                                <span class="expand-icon">▼</span>
+                            </span>
                         </div>
                         <div class="publication-abstract" id="pub9">
                             <p class="abstract-summary"><strong>AI generated summary:</strong> This study evaluates the effectiveness of identity-based messaging in public health communications during the COVID-19 pandemic. We conducted a randomized controlled experiment to assess how different messaging approaches affect compliance with health guidelines. Our research provides evidence for the effectiveness of identity-based appeals in promoting public health behaviors during crisis situations.</p>
@@ -265,8 +311,10 @@
 
                     <div class="publication-item">
                         <div class="publication-title" onclick="toggleAbstract('pub8')">
-                            [8] Dennis, A., Kim, A., Raimi, R., and Ayabakan, S., "User reactions to COVID-19 screening chatbots from reputable providers." Journal of the American Medical Informatics Association, Vol. 27, No. 11, pp. 1727-1731 (2020).
-                            <span class="expand-icon">▼</span>
+                            <span class="citation-text">[8] Dennis, A., Kim, A., Raimi, R., and Ayabakan, S., "User reactions to COVID-19 screening chatbots from reputable providers." Journal of the American Medical Informatics Association, Vol. 27, No. 11, pp. 1727-1731 (2020).</span>
+                            <span class="publication-meta">
+                                <span class="expand-icon">▼</span>
+                            </span>
                         </div>
                         <div class="publication-abstract" id="pub8">
                             <p class="abstract-summary"><strong>AI generated summary:</strong> An online experiment with 371 participants compared user reactions to COVID-19 screening handled by a chatbot versus a human agent from a reputable healthcare provider. The biggest driver of how people responded wasn't whether the agent was a chatbot or human — it was how capable they perceived the agent to be, which in turn depended on how much they trusted the provider. When perceived ability was equal, users rated chatbots as favorably as human agents, though there was a slight bias toward assuming chatbots were somewhat less capable.</p>
@@ -274,10 +322,14 @@
                         </div>
                     </div>
 
-                    <div class="publication-item">
+                    <div class="publication-item ft50 utd24">
                         <div class="publication-title" onclick="toggleAbstract('pub7')">
-                            [7] Moravec, P., Kim, A., and Dennis, A., "Appealing to Sense and Sensibility: System 1 and System 2 Interventions for Fake News on Social Media." Information Systems Research, Vol. 31, No. 3, pp. 987-1006 (2020).
-                            <span class="expand-icon">▼</span>
+                            <span class="citation-text">[7] Moravec, P., Kim, A., and Dennis, A., "Appealing to Sense and Sensibility: System 1 and System 2 Interventions for Fake News on Social Media." Information Systems Research, Vol. 31, No. 3, pp. 987-1006 (2020).</span>
+                            <span class="publication-meta">
+                                <span class="pub-tag pub-tag-ft50">FT50</span>
+                                <span class="pub-tag pub-tag-utd24">UTD24</span>
+                                <span class="expand-icon">▼</span>
+                            </span>
                         </div>
                         <div class="publication-abstract" id="pub7">
                             <p class="abstract-summary"><strong>AI generated summary:</strong> Three experiments tested two different ways of flagging fake news on social media: one designed to catch people's attention instantly (appealing to fast, intuitive thinking) and one designed to prompt more careful, deliberate evaluation. Both types of flags reduced belief in fake news on their own, but combining the two approaches was about twice as effective as using either alone.</p>
@@ -287,8 +339,10 @@
 
                     <div class="publication-item">
                         <div class="publication-title" onclick="toggleAbstract('pub6')">
-                            [6] Kim, A., Lahiri, A., Dey, D., and Kane G., "'Just Enough' Piracy Can Be a Good Thing." MIT Sloan Management Review, Vol. 61, No. 1, pp. 13-14 (2019).
-                            <span class="expand-icon">▼</span>
+                            <span class="citation-text">[6] Kim, A., Lahiri, A., Dey, D., and Kane G., "'Just Enough' Piracy Can Be a Good Thing." MIT Sloan Management Review, Vol. 61, No. 1, pp. 13-14 (2019).</span>
+                            <span class="publication-meta">
+                                <span class="expand-icon">▼</span>
+                            </span>
                         </div>
                         <div class="publication-abstract" id="pub6">
                             <p class="abstract-summary"><strong>AI generated summary:</strong> Drawing on economic research (illustrated with HBO's famously pirated Game of Thrones), this article explains that when a manufacturer and a retailer each add their own markup, prices end up too high and sales too low — a classic "double marginalization" problem. A moderate amount of piracy can offset this by giving price-sensitive consumers an alternative, which can end up boosting profits for both companies while also improving consumer welfare, as long as piracy doesn't get out of hand.</p>
@@ -296,10 +350,13 @@
                         </div>
                     </div>
 
-                    <div class="publication-item">
+                    <div class="publication-item ft50">
                         <div class="publication-title" onclick="toggleAbstract('pub5')">
-                            [5] Kim, A., Moravec, P., and Dennis, A., "Combating Fake News on Social Media with Source Ratings: The Effects of User and Expert Reputation Ratings." Journal of Management Information Systems, Vol. 36, No. 3, pp. 931-968 (2019).
-                            <span class="expand-icon">▼</span>
+                            <span class="citation-text">[5] Kim, A., Moravec, P., and Dennis, A., "Combating Fake News on Social Media with Source Ratings: The Effects of User and Expert Reputation Ratings." Journal of Management Information Systems, Vol. 36, No. 3, pp. 931-968 (2019).</span>
+                            <span class="publication-meta">
+                                <span class="pub-tag pub-tag-ft50">FT50</span>
+                                <span class="expand-icon">▼</span>
+                            </span>
                         </div>
                         <div class="publication-abstract" id="pub5">
                             <p class="abstract-summary"><strong>AI generated summary:</strong> This study compared three ways of rating news sources on social media: expert fact-checkers, users rating individual articles, and users rating sources overall. Low ratings reduced belief far more strongly than high ratings increased it, and ratings based on expert or article-level judgments were more influential than overall source ratings from users. Interestingly, seeing ratings on some articles made people more skeptical even of unrated sources, and this reduced belief, in turn, lowered how much users engaged with an article.</p>
@@ -307,10 +364,14 @@
                         </div>
                     </div>
 
-                    <div class="publication-item">
+                    <div class="publication-item ft50 utd24">
                         <div class="publication-title" onclick="toggleAbstract('pub4')">
-                            [4] Kim, A. and Dennis, A., "Says Who? The Effects of Presentation Format and Source Rating on Fake News in Social Media." MIS Quarterly, Vol. 43, No. 3, pp. 1025-1039 (2019).
-                            <span class="expand-icon">▼</span>
+                            <span class="citation-text">[4] Kim, A. and Dennis, A., "Says Who? The Effects of Presentation Format and Source Rating on Fake News in Social Media." MIS Quarterly, Vol. 43, No. 3, pp. 1025-1039 (2019).</span>
+                            <span class="publication-meta">
+                                <span class="pub-tag pub-tag-ft50">FT50</span>
+                                <span class="pub-tag pub-tag-utd24">UTD24</span>
+                                <span class="expand-icon">▼</span>
+                            </span>
                         </div>
                         <div class="publication-abstract" id="pub4">
                             <p class="abstract-summary"><strong>AI generated summary:</strong> Two online experiments tested whether prominently displaying an article's source, along with a credibility rating, helps social media users spot fake news. Highlighting the source made people more skeptical of articles overall, and low credibility ratings mattered most for sources users didn't already recognize. However, confirmation bias remained powerful throughout the studies: users tended to believe and share articles that matched their existing views regardless of the source's rating.</p>
@@ -318,10 +379,13 @@
                         </div>
                     </div>
 
-                    <div class="publication-item">
+                    <div class="publication-item ft50">
                         <div class="publication-title" onclick="toggleAbstract('pub3')">
-                            [3] Kim, A., "Doubly-Bound Relationship Between Publisher and Retailer: The Curious Mix of Wholesale and Agency Models." Journal of Management Information Systems, Vol. 35, No. 3, pp. 840-865 (2018).
-                            <span class="expand-icon">▼</span>
+                            <span class="citation-text">[3] Kim, A., "Doubly-Bound Relationship Between Publisher and Retailer: The Curious Mix of Wholesale and Agency Models." Journal of Management Information Systems, Vol. 35, No. 3, pp. 840-865 (2018).</span>
+                            <span class="publication-meta">
+                                <span class="pub-tag pub-tag-ft50">FT50</span>
+                                <span class="expand-icon">▼</span>
+                            </span>
                         </div>
                         <div class="publication-abstract" id="pub3">
                             <p class="abstract-summary"><strong>AI generated summary:</strong> This study models how publishers and retailers price e-books (sold under an agency model) and print books (sold under a traditional wholesale model) at the same time. It finds that when a retailer collects a higher share of e-book revenue through the agency fee, it can shrink overall demand, ultimately hurting both the publisher and the retailer rather than benefiting either. The findings help explain the counterintuitive rise in e-book prices after the industry shifted from wholesale to agency pricing.</p>
@@ -329,10 +393,14 @@
                         </div>
                     </div>
 
-                    <div class="publication-item">
+                    <div class="publication-item ft50 utd24">
                         <div class="publication-title" onclick="toggleAbstract('pub2')">
-                            [2] Kim, A., Lahiri, A., and Dey, D., "The 'Invisible Hand' of Piracy: An Economic Analysis of the Information-Goods Supply Chain." MIS Quarterly, Vol. 42, No. 4, pp. 1117-1141 (2018).
-                            <span class="expand-icon">▼</span>
+                            <span class="citation-text">[2] Kim, A., Lahiri, A., and Dey, D., "The 'Invisible Hand' of Piracy: An Economic Analysis of the Information-Goods Supply Chain." MIS Quarterly, Vol. 42, No. 4, pp. 1117-1141 (2018).</span>
+                            <span class="publication-meta">
+                                <span class="pub-tag pub-tag-ft50">FT50</span>
+                                <span class="pub-tag pub-tag-utd24">UTD24</span>
+                                <span class="expand-icon">▼</span>
+                            </span>
                         </div>
                         <div class="publication-abstract" id="pub2">
                             <p class="abstract-summary"><strong>AI generated summary:</strong> This study provides an economic analysis of how piracy affects the information goods supply chain, drawing parallels to Adam Smith's concept of the "invisible hand." We developed theoretical models to understand the complex interactions between piracy, pricing strategies, and market outcomes. Our analysis reveals how piracy can sometimes lead to market outcomes that benefit consumers and legitimate businesses through indirect mechanisms.</p>
@@ -340,10 +408,14 @@
                         </div>
                     </div>
 
-                    <div class="publication-item">
+                    <div class="publication-item ft50 utd24">
                         <div class="publication-title" onclick="toggleAbstract('pub1')">
-                            [1] Dey, D., Kim, A., and Lahiri, A., "Online Piracy and the 'Longer Arm' of Enforcement." Management Science, Vol. 65, No. 3, pp. 1173-1190 (2019).
-                            <span class="expand-icon">▼</span>
+                            <span class="citation-text">[1] Dey, D., Kim, A., and Lahiri, A., "Online Piracy and the 'Longer Arm' of Enforcement." Management Science, Vol. 65, No. 3, pp. 1173-1190 (2019).</span>
+                            <span class="publication-meta">
+                                <span class="pub-tag pub-tag-ft50">FT50</span>
+                                <span class="pub-tag pub-tag-utd24">UTD24</span>
+                                <span class="expand-icon">▼</span>
+                            </span>
                         </div>
                         <div class="publication-abstract" id="pub1">
                             <p class="abstract-summary"><strong>AI generated summary:</strong> This study uses an economic model to compare two ways of fighting online piracy: cracking down on the sites and services that supply pirated content ("supply-side" enforcement) versus penalizing individual downloaders ("demand-side" enforcement). The analysis finds that targeting the supply side has a more favorable long-run effect on innovation and overall economic welfare, making it the more effective "longer arm" of enforcement.</p>

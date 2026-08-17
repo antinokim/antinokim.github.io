@@ -76,6 +76,17 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+// Filter publications by journal list (all / ft50 / utd24)
+function filterPublications(filter, btn) {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    document.querySelectorAll('.publication-item').forEach(item => {
+        const matches = filter === 'all' || item.classList.contains(filter);
+        item.classList.toggle('filtered-out', !matches);
+    });
+}
+
 // Toggle publication abstracts
 function toggleAbstract(pubId) {
     const abstract = document.getElementById(pubId);
