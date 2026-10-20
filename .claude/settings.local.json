@@ -1,0 +1,52 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.tandfonline.com)",
+      "WebFetch(domain:www.sciencedirect.com)",
+      "WebFetch(domain:doi.org)",
+      "WebFetch(domain:dl.acm.org)",
+      "WebFetch(domain:pubsonline.informs.org)",
+      "WebFetch(domain:publichealth.jmir.org)",
+      "WebFetch(domain:academic.oup.com)",
+      "WebFetch(domain:sloanreview.mit.edu)",
+      "WebFetch(domain:www.misq.org)",
+      "WebFetch(domain:misq.org)",
+      "WebFetch(domain:misq.umn.edu)",
+      "WebSearch",
+      "WebFetch(domain:pmc.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:www.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:www.mcgill.ca)",
+      "Bash(npx --version)",
+      "Bash(chromium-cli --help)",
+      "Bash(node \"/c/Users/antin/AppData/Local/Temp/claude/c--Users-antin-OneDrive---Indiana-University-Private-Work-IU-githubhomepage-antinokim-github-io/0c2253af-0dd2-47ba-9132-db8803db9736/scratchpad/fix_indent.js\" index.html)",
+      "Bash(node -e ' *)",
+      "Bash(rm -f \"/c/Users/antin/AppData/Local/Temp/claude/c--Users-antin-OneDrive---Indiana-University-Private-Work-IU-githubhomepage-antinokim-github-io/0c2253af-0dd2-47ba-9132-db8803db9736/scratchpad/add_tags.js\" \"/c/Users/antin/AppData/Local/Temp/claude/c--Users-antin-OneDrive---Indiana-University-Private-Work-IU-githubhomepage-antinokim-github-io/0c2253af-0dd2-47ba-9132-db8803db9736/scratchpad/fix_indent.js\")",
+      "Bash(curl -sf http://localhost:8123/index.html)",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless=new --disable-gpu --no-sandbox --hide-scrollbars --window-size=390,3200 --screenshot=\"/c/Users/antin/AppData/Local/Temp/claude/c--Users-antin-OneDrive---Indiana-University-Private-Work-IU-githubhomepage-antinokim-github-io/0c2253af-0dd2-47ba-9132-db8803db9736/scratchpad/shots/mobile_full.png\" \"http://localhost:8123/index.html#publications\")",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless=new --disable-gpu --no-sandbox --hide-scrollbars --window-size=390,1400 --screenshot=\"/c/Users/antin/AppData/Local/Temp/claude/c--Users-antin-OneDrive---Indiana-University-Private-Work-IU-githubhomepage-antinokim-github-io/0c2253af-0dd2-47ba-9132-db8803db9736/scratchpad/shots/mobile_fixed.png\" \"http://localhost:8123/index.html#publications\")",
+      "Bash(curl -sf http://localhost:8123/script.js)",
+      "Bash(curl -sI http://localhost:8123/index.html)",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless=new --disable-gpu --no-sandbox --hide-scrollbars --window-size=390,1400 --screenshot=\"/c/Users/antin/AppData/Local/Temp/claude/c--Users-antin-OneDrive---Indiana-University-Private-Work-IU-githubhomepage-antinokim-github-io/0c2253af-0dd2-47ba-9132-db8803db9736/scratchpad/shots/mobile_fixed2.png\" \"http://localhost:8123/#publications\")",
+      "Bash(curl -sIL http://localhost:8123/#publications)",
+      "Bash(curl -s http://localhost:8123/)",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless=new --disable-gpu --no-sandbox --hide-scrollbars --window-size=390,900 --screenshot=\"/c/Users/antin/AppData/Local/Temp/claude/c--Users-antin-OneDrive---Indiana-University-Private-Work-IU-githubhomepage-antinokim-github-io/0c2253af-0dd2-47ba-9132-db8803db9736/scratchpad/shots/mobile_top.png\" \"http://localhost:8123/\")",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless=new --disable-gpu --no-sandbox --hide-scrollbars --window-size=390,3400 --screenshot=\"/c/Users/antin/AppData/Local/Temp/claude/c--Users-antin-OneDrive---Indiana-University-Private-Work-IU-githubhomepage-antinokim-github-io/0c2253af-0dd2-47ba-9132-db8803db9736/scratchpad/shots/mobile_tall.png\" \"http://localhost:8123/\")",
+      "Bash(lsof -ti:8123 -sTCP:LISTEN)",
+      "Bash(xargs -r kill)",
+      "Bash(node \"/c/Users/antin/AppData/Local/Temp/claude/c--Users-antin-OneDrive---Indiana-University-Private-Work-IU-githubhomepage-antinokim-github-io/0c2253af-0dd2-47ba-9132-db8803db9736/scratchpad/cdp_check.js\" \"https://antinokim.github.io/\" \"/c/Users/antin/AppData/Local/Temp/claude/c--Users-antin-OneDrive---Indiana-University-Private-Work-IU-githubhomepage-antinokim-github-io/0c2253af-0dd2-47ba-9132-db8803db9736/scratchpad/shots/live_ft50.png\")",
+      "Bash(cp index.html \"/c/Users/antin/AppData/Local/Temp/claude/c--Users-antin-OneDrive---Indiana-University-Private-Work-IU-githubhomepage-antinokim-github-io/0c2253af-0dd2-47ba-9132-db8803db9736/scratchpad/index.html.bak\")",
+      "Bash(node \"/c/Users/antin/AppData/Local/Temp/claude/c--Users-antin-OneDrive---Indiana-University-Private-Work-IU-githubhomepage-antinokim-github-io/0c2253af-0dd2-47ba-9132-db8803db9736/scratchpad/add_ais11.js\" index.html)",
+      "Bash(rm -f \"/c/Users/antin/AppData/Local/Temp/claude/c--Users-antin-OneDrive---Indiana-University-Private-Work-IU-githubhomepage-antinokim-github-io/0c2253af-0dd2-47ba-9132-db8803db9736/scratchpad/add_ais11.js\" \"/c/Users/antin/AppData/Local/Temp/claude/c--Users-antin-OneDrive---Indiana-University-Private-Work-IU-githubhomepage-antinokim-github-io/0c2253af-0dd2-47ba-9132-db8803db9736/scratchpad/index.html.bak\")",
+      "WebFetch(domain:aisnet.org)",
+      "Bash(cp index.html \"/c/Users/antin/AppData/Local/Temp/claude/c--Users-antin-OneDrive---Indiana-University-Private-Work-IU-githubhomepage-antinokim-github-io/0c2253af-0dd2-47ba-9132-db8803db9736/scratchpad/index.html.bak2\")",
+      "Bash(node \"/c/Users/antin/AppData/Local/Temp/claude/c--Users-antin-OneDrive---Indiana-University-Private-Work-IU-githubhomepage-antinokim-github-io/0c2253af-0dd2-47ba-9132-db8803db9736/scratchpad/add_aissig.js\" index.html)",
+      "Bash(curl -s \"https://antinokim.github.io/styles.css\")",
+      "Bash(curl -sI \"https://antinokim.github.io/styles.css\")",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless=new --disable-gpu --no-sandbox --window-size=390,1300 --screenshot=\"/c/Users/antin/AppData/Local/Temp/claude/c--Users-antin-OneDrive---Indiana-University-Private-Work-IU-githubhomepage-antinokim-github-io/0c2253af-0dd2-47ba-9132-db8803db9736/scratchpad/live_zoom.png\" \"https://antinokim.github.io/#publications\")",
+      "Bash(node \"/c/Users/antin/AppData/Local/Temp/claude/c--Users-antin-OneDrive---Indiana-University-Private-Work-IU-githubhomepage-antinokim-github-io/0c2253af-0dd2-47ba-9132-db8803db9736/scratchpad/cdp_zoom.js\" \"https://antinokim.github.io/\" \"/c/Users/antin/AppData/Local/Temp/claude/c--Users-antin-OneDrive---Indiana-University-Private-Work-IU-githubhomepage-antinokim-github-io/0c2253af-0dd2-47ba-9132-db8803db9736/scratchpad/live_zoom2.png\")"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\antin\\AppData\\Local\\Temp\\claude\\c--Users-antin-OneDrive---Indiana-University-Private-Work-IU-githubhomepage-antinokim-github-io\\0c2253af-0dd2-47ba-9132-db8803db9736\\scratchpad"
+    ]
+  }
+}
